@@ -1,0 +1,763 @@
+* {
+	box-sizing: border-box;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h1.clemo {
+	font-size: 30px;
+	font-family: "Montserrat Bold", Montserrat;
+}
+
+nav {
+	float: right;
+	display: inline;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+nav a {
+	padding: 10px;
+	color: #989898;
+	font-size: 26px;
+	font-family: "Montserrat Bold", Montserrat;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #ffe1bd;
+	text-align: center;
+	padding: 70px;
+}
+
+header h1 {
+	font-family: "Montserrat Bold", Montserrat;
+	font-size: 50px;
+}
+
+header hr {
+	width: 50px;
+	height: 4px;
+	background-color: black;
+}
+
+header h2 {
+	font-family: "Montserrat Light", Montserrat;
+}
+
+button {
+	outline: none;
+}
+
+.header-button {
+	color: white;
+	background-color: black;
+	border-radius: 30px;
+	padding: 15px 30px;
+	margin: 40px;
+	font-family: "Montserrat Light", Montserrat;
+}
+
+#header-slide {
+	position: absolute;
+	right: 5%;
+	top: 300px;
+}
+
+#header-slide li {
+	padding: 5px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#header-background0 {
+	padding: 5px;
+	border-radius: 50%;
+	background-color: black;
+	border-color: black;
+	cursor: pointer;
+}
+
+#header-background1 {
+	padding: 5px;
+	border-radius: 50%;
+	background-color: inherit;
+	border-color: black;
+	cursor: pointer;
+}
+
+#header-background2 {
+	padding: 5px;
+	border-radius: 50%;
+	background-color: inherit;
+	border-color: black;
+	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+	font-family: "Montserrat Hairline", Montserrat;
+	font-size: 60px;
+}
+
+aside.main-images {
+	width: 85%;
+	height: 500px;
+	background-color: #e5e5e5;
+}
+
+article {
+	font-family: "Montserrat Bold", Montserrat;
+}
+
+span.article-small-title {
+	font-size: 22px;
+}
+
+span.article-big-title {
+	font-size: 38px;
+}
+
+.article-hr {
+	width: 50px;
+	margin: 15px 0px;
+	height: 4px;
+	background-color: black;
+}
+
+.article-text {
+	color: #656565;
+	font-size: 20px;
+	font-family: "Montserrat Light", Montserrat;
+}
+
+article button {
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 10px 40px;
+	font-family: "Montserrat Light", Montserrat;
+}
+
+div.best-work {
+	text-align: center;
+	padding: 15px;
+}
+
+div.best-work-smaller {
+	width: 85%;
+	height: 364px;
+	background-color: #e5e5e5;
+	margin: 50px;
+}
+
+div.best-work-bigger {
+	width: 85%;
+	height: 590px;
+	background-color: #e5e5e5;
+	margin: 50px;
+}
+
+.best-work-button {
+	color: white;
+	background-color: black;
+	border-radius: 30px;
+	padding: 15px 30px;
+	font-family: "Montserrat Light", Montserrat;
+}
+
+section#best-team {
+	background-color: #ffe1bd;
+	text-align: center;
+}
+
+.best-team-h1 {
+	font-family: "Montserrat Hairline", Montserrat;
+	font-size: 60px;
+}
+
+#best-team-table {
+	width: 100%;
+	margin: auto;
+}
+
+#best-team-table td {
+	float: left;
+	width: 33.3%;
+	padding: 20px;
+}
+
+#prev-workers {
+	width: 90%;
+	height: 125px;
+	margin-top: 50px;
+}
+
+#prev-workers:hover {
+	transition-duration: 0.5s;
+	box-shadow: 5px 5px 10px grey;
+	background-color: #eee;
+	opacity: 0.8;
+}
+
+#next-workers {
+	width: 90%;
+	height: 125px;
+	margin-top: 50px;	
+}
+
+#next-workers:hover {
+	transition-duration: 0.5s;
+	box-shadow: 5px 5px 10px grey;
+	background-color: #eee;
+	opacity: 0.8;
+}
+
+li.circle {
+	display: inline-block;
+	width: 168px;
+	height: 168px;
+	border-radius: 50%; 
+	background-color: white;
+}
+
+#best-team-table h2 {
+	font-family: "Montserrat Bold", Montserrat;
+	font-size: 34px;
+}
+
+#best-team-table hr {
+	width: 50px;
+	height: 4px;
+	background-color: black;
+}
+
+#best-team-table h3 {
+	font-family: "Montserrat Light", Montserrat;
+	font-size: 20px;
+}
+
+.client-name {
+	font-size: 30px;
+	font-family: "Montserrat Bold", Montserrat;
+	text-align: right;
+}
+
+.client-says-hr {
+	width: 50%;
+	float: right;
+	height: 4px;
+	background-color: black;
+}
+
+.client-profession {
+	font-size: 20px;
+	font-family: "Montserrat Light", Montserrat;
+	float: right;
+}
+
+.client-says-text {
+	color: #656565;
+	font-size: 20px;
+	font-family: "Montserrat Light", Montserrat;
+}
+
+.client-says-images {
+	width: 90%;
+	height: 140px;
+	background-color: #e5e5e5;
+}
+
+div#for-contact {
+	background-color: black;
+	padding: 50px;
+	height: 700px;
+}
+
+.for-contact-h1 {
+	color: #e6e6e6;
+	font-family: "Montserrat Hairline", Montserrat;
+	font-size: 60px;
+	text-align: center;
+}
+
+table.for-contact-information {
+	width: 45%;
+}
+
+table.for-contact-information th {
+	padding: 0 15px 40px 90px;
+}
+
+table.for-contact-information td {
+	vertical-align: top;
+	font-family: "Montserrat Light", Montserrat;
+	color: white;
+}
+
+ul.for-contact-social-media {
+	margin-left: 50px;
+}
+
+ul.for-contact-social-media li { 
+	padding: 8px;	
+	display: inline;
+}
+
+#calendar-holder {
+	display: block;
+	float: right;
+	width: 45%;
+	height: 465px;
+	background-color: white;
+}
+
+#prev-arrow {
+	float: left;
+	cursor: pointer;
+}
+
+#next-arrow {
+	float: right;
+	cursor: pointer;
+}
+
+#month-header {
+	display: block;
+	width: 100%;
+	font-family: "Montserrat Light", Montserrat;
+	text-align: center;
+	font-size: 32px;
+	padding: 3px;
+	border-bottom: 2px solid black;
+}
+
+#days-row {
+	width: 100%;
+	text-align: center;
+}
+
+.week-day {
+	width: 14%;
+	display: inline-block;
+	font-family: "Montserrat Light", Montserrat;
+	font-size: 24px;
+}
+
+#dates ul {
+	padding: 10px 0 0 10px;
+	margin: auto;
+}
+
+.calendar-cell {
+	display: inline-block;
+	width: 14%;
+	padding: 20px 0;
+	background-color: #eeeeee;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.today {
+	background-color: yellow;
+}
+
+.footer-h1 {
+	font-size: 20px;
+	font-family: "Montserrat Bold", Montserrat;
+	text-align: center;
+}
+
+.footer-p {
+	font-size: 14px;
+	font-family: "Montserrat Hairline", Montserrat;
+	font-weight: bold;
+	text-align: center;
+}
+
+    /* For tablet */
+@media only screen and (max-width: 960px) {
+
+    aside.main-images {
+    	width: 360px;
+    	height: 360px;
+    }
+
+	span.article-small-title {
+		font-size: 18px;
+	}
+
+	span.article-big-title {
+		font-size: 32px; 
+	}
+
+	.article-text {
+		font-size: 14px;
+	}
+
+    div.best-work-smaller {
+    	width: 244px;
+    	height: 244px;
+    	margin: 20px;
+    }
+
+    div.best-work-bigger {
+    	width: 244px;
+    	height: 390px;
+    	margin: 20px;
+    }
+
+	#best-team-table td {
+		padding: 15px;
+	}
+
+	#best-team-table h2 {
+		font-size: 22px;
+	}
+
+	#best-team-table h3 {
+		font-size: 12px;
+	}
+	
+	li.circle {
+		width: 128px;
+		height: 128px;
+	}
+
+	.client-says-ul {
+		padding: 0;
+	}
+
+	.client-name {
+		font-size: 24px;
+	}
+
+	.client-says-hr {
+		width: 40%;
+		height: 3px;
+	}
+
+	.client-profession {
+		font-size: 16px;
+	}
+
+	.client-says-text {
+		font-size: 16px;
+	}
+
+	aside.client-says-images {
+		width: 174px;
+		height: 100px;
+	}
+
+	div#contact {
+		width: 100%;
+		height: 600px;
+	}
+
+	table.for-contact-information th {
+		padding: 0 15px 40px 30px;
+	}
+
+	ul.for-contact-social-media {
+		margin: 0;
+	}
+
+	#calendar-holder {
+		width: 45%;
+		height: 300px;
+	}
+
+	#month-header {
+		font-size: 24px;
+		padding: 2px;
+	}
+
+	.week-day {
+		font-size: 16px;
+	}
+
+	#dates ul {
+		padding: 5px 0 0 5px;
+	}
+
+	.calendar-cell {
+		padding: 10px 0;
+	}
+}
+
+    /* For mobile phones */
+@media only screen and (max-width: 760px) {
+	
+	h1.clemo {
+		font-size: 24px;
+	}
+
+	nav {
+		margin: 15px 0 0 0;
+		font-size: 22px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+    aside.main-images {
+    	width: 300px;
+    	height: 300px;
+    }
+
+    span.article-small-title {
+		font-size: 14px;
+	}
+
+	span.article-big-title {
+		font-size: 28px; 
+	}
+
+	.article-text {
+		font-size: 12px;
+	}
+
+    article button {
+    	padding: 5px 10px;
+    }
+
+	div.best-work-smaller {
+    	width: 190px;
+    	height: 200px;
+    	margin: 20px;
+    }
+
+    div.best-work-bigger {
+    	width: 190px;
+    	height: 300px;
+    	margin: 20px;
+    }
+
+	.best-work-button {
+		padding: 10px 20px;
+	}
+	
+	#best-team-table td {
+		padding: 10px;
+	}
+	
+	#prev-workers {
+		width: 100%;
+	}
+
+	#next-workers {
+		width: 100%;
+	}
+
+	li.circle {
+		width: 138px;
+		height: 138px;
+	}
+	
+	#best-team-table h2 {
+		font-size: 28px;
+	}
+	
+	#best-team-table hr {
+		height: 3px;
+	}
+	
+	#best-team-table h3 {
+		font-size: 14px;
+	}
+
+	aside.client-says-images {
+		width: 159px;
+		height: 100px;
+	}
+
+	div#for-contact {
+		width: 100%;
+		height: 550px;
+	}
+
+	.for-contact-h1 {
+		font-size: 40px;
+	}
+
+	table.for-contact-information td {
+		font-size: 12px;
+	}
+
+	ul.for-contact-social-media {
+		padding: 0;
+	}
+
+	#calendar-holder {
+		width: 45%;
+		height: 175px;
+	}
+
+	.week-day {
+		font-size: 9px;
+	}
+
+	#dates ul {
+		padding: 2px 0 0 5px;
+	}
+
+	#month-header {
+		font-size: 20px;
+	}
+
+	.week-day {
+		font-size: 9px;
+	}
+
+	.calendar-cell {
+		padding: 1px;
+	}
+}
+
+	/* For bigger resolution */
+@media only screen and (min-width: 1584px) {
+
+	header h1 {
+		font-size: 60px;
+	}
+
+	header h2 {
+		font-size: 34px;
+	}
+
+	header button {
+		font-size: 22px;
+	}
+
+	.title {
+		font-size: 66px;
+	}
+
+	aside.main-images {
+		width: 720px;
+		height: 750px;
+	}
+
+	span.article-small-title {
+	font-size: 34px;
+	}
+
+	span.article-big-title {
+	font-size: 52px;
+	}
+
+	.article-text {
+		font-size: 26px;
+	}
+
+	article button {
+		font-size: 24px;
+	}
+
+	div.best-work-smaller {
+    	width: 440px;
+    	height: 440px;
+    }
+
+    div.best-work-bigger {
+    	width: 440px;
+    	height: 680px;
+    }
+
+    .best-work-button {
+		font-size: 22px;
+    }
+
+    li.circle {
+    	width: 210px;
+    	height: 210px;
+    }
+
+	.client-name {
+		font-size: 34px;
+	}
+
+	.client-profession {
+		font-size: 24px;
+	}
+
+	.client-says-text {
+		font-size: 24px;
+	}
+
+	aside.client-says-images {
+		width: 320px;
+		height: 160px;
+	}
+
+	div#for-contact {
+		height: 850px;
+	}
+
+	.for-contact-information {
+		font-size: 24px;
+	}
+
+	.for-contact-information img {
+		width: 22px;
+		height: 25px
+	}
+
+	.for-contact-social-media img {
+		width: 60px;
+		height: 60px;
+	}
+
+	#calendar-holder {
+		width: 40%;
+	}
+
+	#days-row {
+		margin-left: 15px;
+	}
+
+	.calendar-cell {
+		padding: 20px 0;
+	}
+
+	.today {
+		padding: 20px 0;
+	}
+
+	.footer-h1 {
+		font-size: 22px;
+	}
+
+	.footer-p {
+		font-size: 16px;
+	}
+}
